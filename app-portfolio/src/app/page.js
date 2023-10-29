@@ -14,23 +14,9 @@ const Page = () => {
 
   return (
     <div>
-      <Navbar />
-      <section
-        id="header"
-        className="flex h-screen text-center text-white bg-black"
-      >
-        <h1 className="m-auto font-bold text-purple-600 font-waterfall text-7xl ">
-          Header
-        </h1>
-      </section>     
-      <section
-        id="work"
-        className="flex h-screen text-center text-white bg-black"
-      >
-        <h1 className="m-auto font-bold text-purple-600 font-waterfall text-7xl ">
-          Work
-        </h1>
-      </section>      
+      <Navbar/>
+      <Header/>    
+      <Work/>    
       <section
         id="projects"
         className="flex h-screen text-center text-white bg-black"
